@@ -13,4 +13,5 @@ curl -fsSL "https://raw.githubusercontent.com/RaisonBlue/dotfiles/master/fonts.c
 sudo unlink /usr/bin/terminal
 sudo ln -s /usr/bin/kitty /usr/bin/terminal
 clear
-echo "Done. Please logout from your session and come back to apply changes."
+echo "Your terminal shortcut need to launch kitty (ignore this message on majaro)."
+echo "Done. Please restart your terminal."
