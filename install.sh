@@ -1,4 +1,4 @@
-sudo pacman -S kitty
+sudo pacman -S kitty --noconfirm
 rm -rf ~/.zshrc
 touch ~/.z
 sudo chsh -s /bin/zsh
@@ -12,4 +12,5 @@ mkdir -p ~/.config/fontconfig
 curl -fsSL "https://raw.githubusercontent.com/RaisonBlue/dotfiles/master/fonts.conf" > ~/.config/fontconfig/fonts.conf
 sudo unlink /usr/bin/terminal
 sudo ln -s /usr/bin/kitty /usr/bin/terminal
+clear
 echo "Done. Please logout from your session and come back to apply changes."
