@@ -8,13 +8,18 @@ Under the hood :
 
 ## Installation
 Beware the script is intended to be run after a fesh install, it will wipe out any existing `~/.zshrc` file.
-`sh -c "$(curl -fsSL https://raw.githubusercontent.com/RaisonBlue/bullet-term/master/install.sh)"`
+
+```bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/RaisonBlue/bullet-term/master/install.sh)"
+```
 
 ## Appearance
-Provided by [spaceship-prompt](https://github.com/denysdovhan/spaceship-prompt/)
+Provided by [spaceship-prompt](https://github.com/denysdovhan/spaceship-prompt/).
 
 ## Key binding
 
+KEYS | ACTION
+---------------------|--------------------------
 `HOME` OR `CTRL + A` | jump to beginning of line
 `END`  OR `CTRL + E` | jump to end of line
 `CTRL + W` | remove last word
@@ -25,8 +30,8 @@ Provided by [spaceship-prompt](https://github.com/denysdovhan/spaceship-prompt/)
 `CTRL + R` | Search into command history
 
 ## Features
-* `k` : ls-like command with steroides
-* `z [pattern]` : guess a folder to cd into based on the most visited folders
+* __`k`__ : ls-like command with steroides
+* __`z [pattern]`__ : guess a folder to cd into based on the most visited folders
 * Support emoticons
 * Ask for your passphrase only once for all your X session
 * Git context display
