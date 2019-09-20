@@ -1,6 +1,7 @@
 sudo pacman -S kitty --noconfirm
 rm -rf ~/.zshrc
 touch ~/.z
+mkdir -p ~/.ssh
 sudo chsh -s /bin/zsh
 sudo chsh -s /bin/zsh $USER
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/zdharma/zplugin/master/doc/install.sh)"
