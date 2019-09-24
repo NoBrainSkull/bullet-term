@@ -1,6 +1,6 @@
 # BULLET TERM
 
-A script to install my personnal terminal configuration which goal is to be cleaned, powerful and insanely fast at firing up a new term.
+A script to install my personnal terminal configuration which goal is to be clean, powerful and insanely fast at firing up a new term.
 Under the hood :
 * [kitty-terminal](https://github.com/kovidgoyal/kitty)
 * [ZSH](http://www.zsh.org/)
